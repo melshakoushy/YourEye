@@ -12,6 +12,10 @@
 		0BCD2EC722C3B23800E1EDF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCD2EC522C3B23800E1EDF0 /* Main.storyboard */; };
 		0BCD2EC922C3B23A00E1EDF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCD2EC822C3B23A00E1EDF0 /* Assets.xcassets */; };
 		0BCD2ECC22C3B23A00E1EDF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCD2ECA22C3B23A00E1EDF0 /* LaunchScreen.storyboard */; };
+		0BCD2ED722C3BE7D00E1EDF0 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD2ED622C3BE7D00E1EDF0 /* RoundedShadowView.swift */; };
+		0BCD2ED922C3C0BC00E1EDF0 /* RoundedShadowBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD2ED822C3C0BC00E1EDF0 /* RoundedShadowBtn.swift */; };
+		0BCD2EDB22C3C14300E1EDF0 /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD2EDA22C3C14300E1EDF0 /* RoundedShadowImageView.swift */; };
+		0BCD2EDD22C3E80D00E1EDF0 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD2EDC22C3E80D00E1EDF0 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		0BCD2EC822C3B23A00E1EDF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BCD2ECB22C3B23A00E1EDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BCD2ECD22C3B23A00E1EDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BCD2ED622C3BE7D00E1EDF0 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		0BCD2ED822C3C0BC00E1EDF0 /* RoundedShadowBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowBtn.swift; sourceTree = "<group>"; };
+		0BCD2EDA22C3C14300E1EDF0 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
+		0BCD2EDC22C3E80D00E1EDF0 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,9 @@
 		0BCD2ED422C3B29400E1EDF0 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				0BCD2ED622C3BE7D00E1EDF0 /* RoundedShadowView.swift */,
+				0BCD2ED822C3C0BC00E1EDF0 /* RoundedShadowBtn.swift */,
+				0BCD2EDA22C3C14300E1EDF0 /* RoundedShadowImageView.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -84,6 +95,7 @@
 		0BCD2ED522C3B29D00E1EDF0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0BCD2EDC22C3E80D00E1EDF0 /* SqueezeNet.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -159,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCD2ED922C3C0BC00E1EDF0 /* RoundedShadowBtn.swift in Sources */,
+				0BCD2EDD22C3E80D00E1EDF0 /* SqueezeNet.mlmodel in Sources */,
 				0BCD2EC422C3B23800E1EDF0 /* CameraVC.swift in Sources */,
 				0BCD2EC222C3B23800E1EDF0 /* AppDelegate.swift in Sources */,
+				0BCD2ED722C3BE7D00E1EDF0 /* RoundedShadowView.swift in Sources */,
+				0BCD2EDB22C3C14300E1EDF0 /* RoundedShadowImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
